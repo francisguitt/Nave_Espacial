@@ -54,7 +54,7 @@ def show_menu():
             screen.blit(text, (WIDTH // 2 - text.get_width() // 2, 300 + (i * 40)))
 
         # Rodapé
-        footer = font_footer.render("Desenvolvido por: JOSE FRANCISCO ALVES DE MOURA. RU: 5392746", True, WHITE)
+        footer = font_footer.render("Desenvolvido por: Francisguitt/Guitt Zoom, True, WHITE)
         screen.blit(footer, (WIDTH // 2 - footer.get_width() // 2, HEIGHT - 30))
 
         pygame.display.flip()
